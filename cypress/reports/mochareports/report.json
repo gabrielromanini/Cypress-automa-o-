@@ -1,0 +1,107 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-09-09T22:33:56.829Z",
+    "end": "2021-09-09T22:34:14.986Z",
+    "duration": 16594,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "27639e59-f904-41bd-8dff-98790b2bbf15",
+      "title": "",
+      "fullFile": "cypress/integration/Classificados/MeuSocarrao/criarAnuncio.spec.js",
+      "file": "cypress/integration/Classificados/MeuSocarrao/criarAnuncio.spec.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "6ba6a9ff-5328-4e25-aff3-4c23801da6ab",
+          "title": "Testes de Criacao do Anuncio",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Deve poder criar um anuncio quando já logado em sua conta",
+              "fullTitle": "Testes de Criacao do Anuncio Deve poder criar um anuncio quando já logado em sua conta",
+              "timedOut": null,
+              "duration": 16594,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "_MeuSocarrao.default.ListenApis();\n_MeuSocarrao.default.ClicarBotaoHome();\n_MeuSocarrao.default.ClicarVenderVeiculo();\n_MeuSocarrao.default.EscolherPlano();\n_MeuSocarrao.default.PreencherMarcaModeloVersao();\n_MeuSocarrao.default.PreencheAno();\n_MeuSocarrao.default.PreencherKmCombustivel();\n_MeuSocarrao.default.PreencherCambioCor();\n_MeuSocarrao.default.PreeenchePortaBanco();\n_MeuSocarrao.default.PreecherEstadoCidade();\n_MeuSocarrao.default.PreencherAcessorios();",
+              "err": {},
+              "uuid": "6ba5dcde-4291-4db4-bfea-bbc38bce350d",
+              "parentUUID": "6ba6a9ff-5328-4e25-aff3-4c23801da6ab",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "6ba5dcde-4291-4db4-bfea-bbc38bce350d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 16594,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": false,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.2.2"
+    },
+    "marge": {
+      "options": {
+        "id": "default",
+        "reportDir": "cypress/reports/mocha",
+        "quite": true,
+        "overwrite": false,
+        "html": false,
+        "json": true
+      },
+      "version": "5.2.0"
+    }
+  }
+}
